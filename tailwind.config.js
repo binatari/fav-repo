@@ -16,7 +16,7 @@ module.exports = {
           fontWeight: '400',
         }],
         'head': ['3.25rem', {
-          lineHeight: '2rem',
+          lineHeight: '4.188rem',
           fontWeight: '700',
         }],
         'subhead': ['2.5rem', {
