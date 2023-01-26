@@ -16,4 +16,14 @@ background-clip: text;
 text-fill-color: transparent;
 }
 
+/* .small-list {
+  list-style: none;
+}
+
+.small-list:before {
+  content:"·";
+  font-size:120px;
+  vertical-align:middle;
+  line-height:20px;
+} */
 
