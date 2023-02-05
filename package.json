@@ -15,10 +15,10 @@
     "tailwind-darkmode-toggle": "^1.0.5"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "eslint": "8.31.0",
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8"
   }
 }
