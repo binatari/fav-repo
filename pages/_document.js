@@ -1,5 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
-import { ThemeScriptTag } from 'tailwind-darkmode-toggle';
+// import { ThemeScriptTag } from 'tailwind-darkmode-toggle';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -10,7 +10,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='en'>
-        <Head>     <ThemeScriptTag />
+        <Head>    
         </Head>
           <Main />
           <NextScript />

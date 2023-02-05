@@ -1,6 +1,6 @@
 import Layout from "../components/Layout/Layout";
 import "../styles/globals.css";
-import { ThemeProvider } from "tailwind-darkmode-toggle";
+// import { ThemeProvider } from "tailwind-darkmode-toggle";
 import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,11 +11,11 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/assets/fave.png" />
         <title>Favour Momoh</title>
       </Head>
-      <ThemeProvider>
+
         <Layout>
           <Component {...pageProps} />
         </Layout>{" "}
-      </ThemeProvider>
+
     </>
   );
 }
