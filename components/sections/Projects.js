@@ -17,6 +17,7 @@ const Projects = ({ noHead, noTitle }) => {
       <div className="flex justify-around flex-wrap ">
         <div className="w-1/2 flex justify-center">
           <Link href={"/projects/subly"}>
+            <a>
             <div className="bg-[#4A10C0] mx-2 rounded-3xl p-12 flex justify-center items-center">
               <img src="/assets/phone.svg" />
             </div>
@@ -26,10 +27,13 @@ const Projects = ({ noHead, noTitle }) => {
                 Product design / 2022
               </span>
             </p>
+            </a>
+         
           </Link>
         </div>
         <div className="w-1/2">
           <Link href={"/projects/collaborative-playlists"}>
+            <a>
             <div className="flex items-center flex-col justify-center mx-4 h-full">
               <img src="/assets/music.png" />
               <p className="text-lg mt-5 font-semibold w-2/3 mx-2">
@@ -39,6 +43,8 @@ const Projects = ({ noHead, noTitle }) => {
                 </span>
               </p>
             </div>
+            </a>
+          
           </Link>
         </div>
         <div className="w-full my-[126px] flex flex-col items-center justify-center">
@@ -55,6 +61,7 @@ const Projects = ({ noHead, noTitle }) => {
         </div>
         <div className="w-1/2 flex justify-center">
           <Link href={"/projects/creators-hub"}>
+            <a>
             <div className="mx-4">
               <img src="/assets/laptop.png" />
             </div>
@@ -64,10 +71,13 @@ const Projects = ({ noHead, noTitle }) => {
                 Product design / 2022
               </span>
             </p>
+            </a>
+          
           </Link>
         </div>
         <div className="w-1/2 flex justify-center">
           <Link href={"/graphics"}>
+            <a>
             <div className="mx-4">
               <img src="/assets/pencil.png" />
             </div>
@@ -77,6 +87,7 @@ const Projects = ({ noHead, noTitle }) => {
                 Product design / 2022
               </span>
             </p>
+            </a>  
           </Link>
         </div>
       </div>

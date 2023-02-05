@@ -13,7 +13,7 @@ function NavLink({ to, children }) {
 function MobileNav({ open, setOpen }) {
   return (
     <div
-      className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${
+      className={`absolute md:hidden top-0 left-0 h-screen w-screen bg-white transform ${
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
@@ -63,10 +63,10 @@ export default function Header() {
         <MobileNav open={open} setOpen={setOpen} />
         <div className="w-3/12 flex items-center">
           <Link className="text-2xl block dark:hidden font-semibold" href="/">
-            <img src="/assets/logo.svg" />
+            <img src="/assets/logo.svg" className="text-2xl block dark:hidden font-semibold" />
           </Link>
           <Link className="text-2xl hidden dark:block font-semibold" href="/">
-            <img src="/assets/logo-whitw.png" />
+            <img src="/assets/logo-whitw.png" className="text-2xl hidden dark:block font-semibold" />
           </Link>
         </div>
         <div className="w-9/12 flex justify-end items-center">
@@ -100,7 +100,7 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="hidden md:flex text-small">
+          <div className="hidden md:flex gap-4 text-small">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/projects">Projects</NavLink>
