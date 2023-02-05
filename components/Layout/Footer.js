@@ -6,7 +6,7 @@ const Footer = () => {
         <div className=' container mx-auto'>
         <div className='pt-[100px] pb-[120px]'>
         
-        <h3 className='text-subhead text-white'>
+        <h3 className=' text-[20px] font-bold md:text-subhead text-white'>
         Want to discuss a project or just say hello?
         <br/>
         Contact me:<span className='text-clip'>hello@favourmomoh.xyz</span>
