@@ -597,8 +597,8 @@ const subly = () => {
       </div>
       <div className="bg-[#F1F5FF] rounded-[24px] py-[107px] px-[6px] md:px-[164px] mb-[100px]">
         <p className=" text-clip text-sm font-[800]">CONCLUSION</p>
-        <h1 className="text-subhead ">Reflection</h1>
-        <p className="mt-6">
+        <h1 className="text-subhead dark:text-black">Reflection</h1>
+        <p className="mt-6 dark:text-black">
           The feedback from users and stakeholders was overwhelmingly positive,
           with many praising the app's modern visual design and ease of use. I
           particularly enjoyed working on this project for two reasons: first,
@@ -610,16 +610,16 @@ const subly = () => {
           <br />A few things I learnt while working on this project:
         </p>
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 mt-[25px]">
-        <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px]">
+        <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px] dark:text-black">
         Involving users in the design process is extremelyyy important!
         </h4>
-        <p >
+        <p className="dark:text-black">
         You can create successful products that are tailored to the needs of the users and provide a satisfying user experience by making the design process user-centered. In addition to the business goals provided by stakeholders, involving users from the beginning of the research process was extremely beneficial, as much of the feedback received from users validated the business goals and helped determine which features should be prioritized. I was able to account for different perspectives and needs, such as professionals and students, by gathering feedback from a diverse user group.
         </p>
-        <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px]">
+        <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px] dark:text-black">
         Interaction and motion design can assist in providing visual cues to users.
         </h4>
-        <p >
+        <p className="dark:text-black">
         Visual cues are an integral part of UX design because they help users understand the interface by providing clear and consistent feedback, indicating interactive elements, and making it easier for users to navigate the interface. A key observation during the usability studies was that the users didn’t require assistance while testing the prototypes, because of the visual cues provided by the interaction and motion designs included in the app.
         </p>
         </div>

@@ -427,10 +427,10 @@ const collaborativePlaylists = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#FFF4F7] rounded-[24px] py-[107px] px-[6px] md:px-[164px] mb-[100px]">
-        <p className=" text-clip text-sm font-[800]">CONCLUSION & NEXT STEPS</p>
-        <h1 className="text-subhead ">Reflection</h1>
-        <p className="mt-6">
+      <div className="bg-[#FFF4F7] no-black rounded-[24px] py-[107px] px-[6px] md:px-[164px] mb-[100px]">
+        <p className=" text-clip dark:text-black text-sm font-[800]">CONCLUSION & NEXT STEPS</p>
+        <h1 className="text-subhead dark:text-black">Reflection</h1>
+        <p className="mt-6 dark:text-black">
         In my opinion, seeing the reactions of users during the final usability test was a sight to behold. There was a lot of relief and excitement about being able to collaborate on playlists, and this confirmed the hypothesis that allowing multiple users to collaborate on and edit shared playlists would result in a significant increase in user engagement on Apple Music. In terms of next steps, I don't have any other features I'd like to investigate just yet, but I'm really hoping Apple Music joins other music platforms in incorporating the collaborative playlist feature soon. It will undoubtedly go a long way!
 
 
@@ -439,22 +439,22 @@ const collaborativePlaylists = () => {
           <br />Overall, it was an interesting project, considering it was my first time exploring the Lean UX approach, so here are some key takeaways I gained:
         </p>
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 mt-[25px]">
-          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px]">
+          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px] dark:text-black">
           Lean UX enables you to quickly create an MVP that can be tested.
           </h4>
           <p>
           Rather than wasting time trying to find the perfect solution, Lean UX allows you to concentrate on the minimum viable product. This allows you to test your assumptions from the start of the project and then make necessary iterations based on user feedback. So you don't have to try to solve all of the users' problems all at once; instead, start with a small product or feature that works, and then build on that over time.
           </p>
-          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px]">
+          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px] dark:text-black">
           Get out of your comfort zone every now and then.
           </h4>
-          <p>
+          <p className="dark:text-black">
           As a designer, organization, or business, I believe it is critical to interact and engage with users and customers as frequently and consistently as possible. Working outside your comfort zone is essential for understanding your users and gaining a better understanding of the world. I especially commend companies like Figma for constantly interacting with their community/users, as this frequently drives some of the new features they release over time.
           </p>
-          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px]">
+          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px] dark:text-black">
           Don’t worry about being perfect, just start from somewhere.
           </h4>
-          <p>
+          <p className="dark:text-black">
           This might seem unrelated, but using the Lean UX approach taught me that when you have big dreams or goals, you don’t necessarily have to do them all at once. Start by breaking them down into manageable actions, then choose one that interests you and will add value, and simply begin. Don't spend too much time worrying about being perfect.
           </p>
         </div>

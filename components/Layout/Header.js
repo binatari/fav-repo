@@ -4,9 +4,9 @@ import { DarkModeToggle } from "tailwind-darkmode-toggle";
 
 function NavLink({ to, children }) {
   return (
-    <a href={to} className={`mx-4`}>
+    <Link href={to} className={`mx-4`}>
       {children}
-    </a>
+    </Link>
   );
 }
 
@@ -20,9 +20,12 @@ function MobileNav({ open, setOpen }) {
       <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
         {" "}
         {/*logo container*/}
-        <Link className="text-2xl font-semibold" href="/">
-          <img src="/assets/logo.svg" />
-        </Link>
+        <Link className="text-2xl block dark:hidden font-semibold" href="/">
+            <img src="/assets/logo.svg" />
+          </Link>
+          <Link className="text-2xl hidden dark:block font-semibold" href="/">
+            <img src="/assets/logo-whitw.png" />
+          </Link>
       </div>
       <div className="flex flex-col ml-4">
         <a
@@ -59,8 +62,11 @@ export default function Header() {
       <nav className="flex container mx-auto   px-4 py-4 h-20 items-center">
         <MobileNav open={open} setOpen={setOpen} />
         <div className="w-3/12 flex items-center">
-          <Link className="text-2xl font-semibold" href="/">
+          <Link className="text-2xl block dark:hidden font-semibold" href="/">
             <img src="/assets/logo.svg" />
+          </Link>
+          <Link className="text-2xl hidden dark:block font-semibold" href="/">
+            <img src="/assets/logo-whitw.png" />
           </Link>
         </div>
         <div className="w-9/12 flex justify-end items-center">

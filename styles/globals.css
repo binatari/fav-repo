@@ -24,6 +24,9 @@ text-fill-color: transparent;
   p,span,h4,h3,h1,h2,a, li,h5{
     @apply dark:text-white
   }
+  .no-black{
+    @apply dark:text-black
+  }
 }
 
 .moon-shadow{

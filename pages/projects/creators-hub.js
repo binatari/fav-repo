@@ -449,9 +449,9 @@ const creatorHub = () => {
         </p>
       </div>
       <div className="bg-[#FBF4FF] rounded-[24px] py-[107px] px-[6px] md:px-[164px] mb-[100px]">
-        <p className=" text-clip text-sm font-[800]">CONCLUSION</p>
-        <h1 className="text-subhead ">Reflection</h1>
-        <p className="mt-6">
+        <p className=" text-clip text-sm font-[800] ">CONCLUSION</p>
+        <h1 className="text-subhead dark:text-black">Reflection</h1>
+        <p className="mt-6 dark:text-black">
         By carefully considering the needs and goals of the stakeholders, I was able to create a design that not only met their expectations but exceeded them. The resulting design helped the client stand out from their competitors while also providing users with a positive experience.
 
           <br />
@@ -459,10 +459,10 @@ const creatorHub = () => {
 Below is the key takeaway I gained during the course of this project:
         </p>
         <div className="grid gap-5 grid-cols-1 md:grid-cols-2 mt-[25px]">
-          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px]">
+          <h4 className="text-[21px]  font-bold mb-[10px] leading-[27px] dark:text-black">
           The mobile-first approach is not always the best course of action.
           </h4>
-          <p>
+          <p className="dark:text-black">
           While the mobile-first approach has many advantages and is frequently recommended, it is not always the best option. The decision to use a mobile-first approach should be based on the website's specific needs and goals, as well as its target audience. Because this website had a lot of content requirements and required a lot of data input, it was easier to start designing for desktop and then convert it to fit mobile screens.
           </p>
         </div>
