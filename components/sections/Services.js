@@ -30,10 +30,10 @@ const Services = () => {
       <h3 className="text-subhead text-center mt-[20px] mb-[80px]">
         Building fascinating products, <br /> with great user experiences.
       </h3>
-<div className="flex justify-center items-center gap-8">
+<div className="flex flex-col md:flex-row justify-center items-center gap-8">
 {
         cards.map(({image, head, body, list, dark_image}, i)=>(
-          <div key={i} className='w-1/3'>
+          <div key={i} className='md:w-1/3 w-full'>
             <img src={image} className='h-[4rem] dark:hidden'/> 
             <img src={dark_image} className='h-[4rem] hidden dark:block'/> 
             <h4 className="text-[21px] font-bold mt-[18px] mb-[11px]">{head}</h4>

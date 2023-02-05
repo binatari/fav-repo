@@ -3,7 +3,7 @@ import Projects from '../components/sections/Projects'
 
 const FourOhFour = () => {
   return (
-    <div>
+    <div className="pt-20 md:pt-0">
         <div className='py-10'>
           <div className='flex flex-col items-center py-[100px]'>
            <img src='/assets/fave.png'/> 

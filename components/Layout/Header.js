@@ -13,23 +13,34 @@ function NavLink({ to, children }) {
 function MobileNav({ open, setOpen }) {
   return (
     <div
-      className={`absolute md:hidden top-0 left-0 h-screen w-screen bg-white transform ${
+      className={`absolute md:hidden top-0 left-0 h-screen w-screen bg-white dark:bg-black transform ${
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
-      <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
+      <div className="flex items-center justify-center filter drop-shadow-md bg-white dark:bg-black h-20">
         {" "}
         {/*logo container*/}
         <Link className="text-2xl block dark:hidden font-semibold" href="/">
-            <img src="/assets/logo.svg" />
+            <img src="/assets/logo.svg" className="text-2xl block dark:hidden font-semibold" />
           </Link>
           <Link className="text-2xl hidden dark:block font-semibold" href="/">
-            <img src="/assets/logo-whitw.png" />
+            <img src="/assets/logo-whitw.png" className="text-2xl hidden dark:block font-semibold" />
           </Link>
       </div>
       <div className="flex flex-col ml-4">
         <a
-          className="text-normal font-medium my-4"
+          className="text-normal dark:text-white font-medium my-4"
+          href="/"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+        Home
+        </a>
+        <a
+          className="text-normal dark:text-white font-normal my-4"
           href="/about"
           onClick={() =>
             setTimeout(() => {
@@ -37,18 +48,29 @@ function MobileNav({ open, setOpen }) {
             }, 100)
           }
         >
-          About
+        About
         </a>
         <a
-          className="text-normal font-normal my-4"
-          href="/contact"
+          className="text-normal dark:text-white font-normal my-4"
+          href="/projects"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
             }, 100)
           }
         >
-          Contact
+        Projects
+        </a>
+        <a
+          className="text-normal dark:text-white font-normal my-4"
+          href="/etc"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+        Etc.
         </a>
       </div>
     </div>
@@ -58,7 +80,7 @@ function MobileNav({ open, setOpen }) {
 export default function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <div className="filter  bg-white fixed w-full dark:bg-black">
+    <div className="filter  bg-white fixed w-full z-[1000] dark:bg-black">
       <nav className="flex container mx-auto   px-4 py-4 h-20 items-center">
         <MobileNav open={open} setOpen={setOpen} />
         <div className="w-3/12 flex items-center">

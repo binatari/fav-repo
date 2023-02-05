@@ -8,7 +8,7 @@ const about = () => {
     "/assets/quotes-4.png",
   ];
   return (
-    <div>
+    <div className="pt-20 md:pt-0">
       <div className=" justify-around min-h-screen flex-wrap flex items-center pt-[20px]">
         <div className="w-full md:w-1/2">
           <h1 className="text-subhead ">Hi there, I&apos;m Favour</h1>

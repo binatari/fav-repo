@@ -6,7 +6,7 @@ import Projects from "../components/sections/Projects";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="pt-20 md:pt-0">
       <div className=" justify-around min-h-screen flex-wrap flex items-center">
         <div className="w-full md:w-1/2">
           <h1 className="text-head ">

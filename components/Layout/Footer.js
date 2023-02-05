@@ -9,7 +9,7 @@ const Footer = () => {
         <h3 className=' text-[20px] font-bold md:text-subhead text-white'>
         Want to discuss a project or just say hello?
         <br/>
-        Contact me:<span className='text-clip'>hello@favourmomoh.xyz</span>
+        Contact me:<a className='text-clip' href='href="mailto:hello@favourmomoh.xyz"'>hello@favourmomoh.xyz</a>
         </h3>
       
        </div>
