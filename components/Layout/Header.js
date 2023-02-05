@@ -78,17 +78,17 @@ export default function Header() {
               setOpen(!open);
             }}>
               <span
-                className={`h-[2px] w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
+                className={`h-[2px] w-full bg-black dark:bg-white rounded-lg transform transition duration-300 ease-in-out ${
                   open ? "rotate-45 translate-y-3.5" : ""
                 }`}
               />
               <span
-                className={`h-[2px] w-full bg-black rounded-lg transition-all duration-300 ease-in-out ${
+                className={`h-[2px] w-full bg-black dark:bg-white rounded-lg transition-all duration-300 ease-in-out ${
                   open ? "w-0" : "w-full"
                 }`}
               />
               <span
-                className={`h-[2px] w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
+                className={`h-[2px] w-full bg-black dark:bg-white rounded-lg transform transition duration-300 ease-in-out ${
                   open ? "-rotate-45 -translate-y-3.5" : ""
                 }`}
               />
