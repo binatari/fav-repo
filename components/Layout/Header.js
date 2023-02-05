@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-// import { DarkModeToggle } from "tailwind-darkmode-toggle";
+import { DarkModeToggle } from "tailwind-darkmode-toggle";
 
 function NavLink({ to, children }) {
   return (
@@ -95,9 +95,9 @@ export default function Header() {
             </div>
             {/* hamburger button */}
 
-            {/* <div className="h-8 w-8 rounded-full bg-white p-2 moon-shadow">
+            <div className="h-8 w-8 rounded-full bg-white p-2 moon-shadow">
               <DarkModeToggle className="max-h-[3rem] text-black" />
-            </div> */}
+            </div>
           </div>
 
           <div className="hidden md:flex gap-4 text-small">
@@ -105,9 +105,9 @@ export default function Header() {
             <NavLink to="/about">About</NavLink>
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/etc">Etc.</NavLink>
-            {/* <div className="h-8 w-8 rounded-full bg-white p-2 moon-shadow">
+            <div className="h-8 w-8 rounded-full bg-white p-2 moon-shadow">
               <DarkModeToggle className="max-h-[3rem] h-full text-black dark:text-black" />
-            </div> */}
+            </div>
           </div>
         </div>
       </nav>
